@@ -1,0 +1,133 @@
+@import url(https://fonts.google.com/share?selection.family=Courgette%7CMontserrat:wght@500);
+@font-face {
+    font-family: FarFromHomecoming;
+    src: url(Assets/Far-From\ Homecoming\ Updated.otf);
+}
+body {
+    margin: 0;    
+    background-color: #000000;
+}
+header {
+    background-color: #B11313;
+    display: flex;
+}
+nav {
+    display: flex;
+}
+.logo {
+    float: left;
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 100px;
+}
+.logo img {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.logo2 {
+    padding-top: 20px;
+}
+.menu {    
+    text-decoration: none;
+    padding-left: 200px;
+    padding-top: 20px;
+}
+ul {
+    list-style-type: none;
+    float: right;   
+}
+li {
+    display: inline;
+    padding: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: #FFF;
+    text-decoration: none;
+}
+main {
+    background-image: url(Assets/Illustration/img35.png);    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 600px;    
+}
+.heros {
+    color: #FFFFFF;
+    text-transform: uppercase; 
+    font-family: FarFromHomecoming;
+    font-size: 250%;
+    padding-left: 150px;
+    padding-top: 300px;
+}
+.soon {
+    color: #FFFFFF;
+    padding-left: 150px;
+    font-size: 100%;
+}
+footer {
+    background-color: #000000;   
+}
+.link {
+    display: flex;    
+    padding-top: 50px;
+}
+.menu-left {
+    text-align: left;
+}
+
+.img-logo {
+    padding-left: 75px;
+    padding-right: 30px;    
+}
+select, option {
+    background-color: #B11313;
+    color: #FFF;
+    border-radius: 10%;
+    border: none;
+    padding-right: 20px;
+}
+.social_media {
+    padding-top: 30px;
+}
+.facebook {
+    height: 40px; 
+    width: 40px; 
+    background-color: #B11313;   
+    border-radius: 50%; 
+    border: none;
+    margin-left: 520px;
+}
+.instagram {
+    height: 40px; 
+    width: 40px; 
+    background-color: #B11313;   
+    border-radius: 50%; 
+    border: none;  
+    margin-left: 20px;     
+}
+.youtube {
+    height: 40px; 
+    width: 40px;
+    background-color: #B11313;   
+    border-radius: 50%; 
+    border: none;   
+    margin-left: 20px;
+}
+.twitter {
+    height: 40px; 
+    width: 40px; 
+    background-color: #B11313;   
+    border-radius: 50%; 
+    border: none;   
+    margin-left: 20px;
+}
+.copyright {
+    color: #8b8b8b;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+

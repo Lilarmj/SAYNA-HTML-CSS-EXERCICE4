@@ -1,0 +1,299 @@
+@import url(https://fonts.google.com/share?selection.family=Courgette%7CMontserrat:wght@500);
+@font-face {
+    font-family: FarFromHomecoming;
+    src: url(Assets/Far-From\ Homecoming\ Updated.otf);
+}
+body {
+    margin: 0;
+    padding: 0;    
+}
+header {
+    background-color: #114C92;
+    display: flex;
+}
+nav {
+    display: flex;
+}
+.logo {
+    float: left;
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 100px;
+}
+.logo img {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.logo2 {
+    padding-top: 20px;
+}
+
+.menu {    
+    text-decoration: none;
+    padding-left: 200px;
+    padding-top: 20px;
+}
+ul {
+    list-style-type: none;
+    float: right;   
+}
+li {
+    display: inline;
+    padding: 20px;
+}
+a{
+    text-decoration: none;
+    color: #FFF;
+    text-decoration: none;
+}
+#principal-title {
+    background: url(Assets/Illustration/img19.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 100px 50px 100px 100px;    
+    color: #FFFFFF;
+}
+.title-heros {
+    text-transform: uppercase;
+    font-family: FarFromHomecoming;
+    font-size: 300%;
+}
+h1 {
+    margin: 0;
+    padding-top: 50px;
+}
+h2 {
+    text-transform: uppercase;
+    font-family: FarFromHomecoming;
+    font-size: 150%;
+    color: #FFFFFF;
+}
+h3 {
+    margin: 0;
+    padding-bottom: 50px;
+    color: #FFFFFF;
+    font-size: 100%;
+}
+.valeurs {
+    background-color: #114C92;    
+}
+.title {
+    padding-top: 50px;
+    padding-left: 80px;
+}
+.paragraph {
+    padding-left: 80px;
+}
+.text {
+    display: flex;
+}
+.content-valeurs {
+    color: #FFFFFF;
+    padding: 0 50px 80px 80px;
+    text-align: justify;    
+}
+.video {
+    padding-top: 30px;
+    padding-right: 50px;
+}
+.fondations {
+    background: url(Assets/Illustration/img20.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: #FFFFFF;
+}
+.title-fondations {
+    padding: 50px 60px 10px 100px;
+}
+.paragrah-fondations {
+    padding: 10px 60px 200px 100px;
+}
+.container {
+    background-color: #114C92;
+    color: #FFFFFF;
+}
+.container-paragraph {
+    display: flex;
+    padding: 10px 30px 10px 50px;
+}
+span {
+    font-weight: bold;
+}
+.column {
+    text-align:justify;
+    padding: 50px 30px;
+    width: 800px;
+    height: 500px;
+}
+.entourage {
+    display: flex;
+    padding: 20px 30px;
+}
+.paragrah-entourage {
+    padding-left: 80px;
+}
+.meilleurs-amis {
+    text-align:justify;
+    width: 600px;
+    height: 300px;
+    padding-left: 220px;
+    padding-right: 80px;
+    padding-top: 80px;
+}
+.img21 {
+    padding-left: 80px;
+    position: relative;
+}
+.img22 {
+    padding-left: 300px;
+    position: absolute;
+    top:285% ;
+    left:5%;
+}
+.stacy {
+    display: flex;
+    padding: 50px 80px;
+    margin-top: 50px;
+}
+.title-stacy {
+    padding-left: 50px;
+}
+.story {
+    width: 500px;
+    height: 400px;
+    text-align:justify;
+    padding-left: 50px;
+    padding-right: 80px;
+    margin-top: 20px;
+}
+.images1 {
+    height: 180px; 
+    width: 180px; 
+    border-radius: 50%; 
+    border: none; 
+    display: flex;     
+    padding-top: 20px; 
+    margin-top: 20px; 
+}
+.img23 {
+    padding-right: 30px;
+}
+.images2 {
+    height: 100px; 
+    width: 100px; 
+    border-radius: 50%; 
+    border: none;      
+    padding-top: 20px;
+    padding-left: 90px;
+}
+.avengers {
+    background: url(Assets/Illustration/img32.png);
+    background-repeat: no-repeat;
+    background-size: 50% 100%;
+    background-position: 650px;
+    background-color: #B11313;    
+    display: flex; 
+    color: #FFFFFF;
+    padding: 20px 0 50px 100px;    
+}
+.avengers1 {
+    display: flex;    
+}
+.img-avengers1 {
+    padding: 10px 20px 0 10px;
+}
+.paragrah-avengers1 {
+    width: 250px;
+    height: 380px;
+    text-align: justify;
+}
+.avengers2 {
+    display: flex;
+}
+.avengers2 img {
+    padding: 20px 50px 20px 10px;
+}
+.univers {
+    background: url(Assets/Illustration/img33.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: right;  
+}
+.univers-container {
+    background-color: #114b929d;
+    color: #FFFFFF;
+    width: 350px;
+    height: 550px;
+    padding: 50px 50px 20px 50px; 
+    margin-left: 680px; 
+}
+.univers-container h3 {
+    padding-bottom: 20px;
+}
+.univers-content {
+    text-align: justify;
+}
+footer {
+    background-color: #000000;
+}
+.link {
+    display: flex;
+    margin: 0 20px 50px;
+    padding-top: 50px;
+}
+.menu-left {
+    text-align: left;
+}
+.menu-right {
+    padding: 0;    
+}
+.img-logo {
+    padding-left: 70px;
+    padding-right: 30px;
+}
+select, option {
+    background-color: #114C92;
+    color: #FFF;
+    border-radius: 10px;
+    border: none;
+    padding-right: 20px;
+}
+.facebook {
+    height: 40px; 
+    width: 40px; 
+    background-color: #114C92;   
+    border-radius: 50%; 
+    border: none;
+    margin-left: 520px;
+}
+.instagram {
+    height: 40px; 
+    width: 40px; 
+    background-color: #114C92;   
+    border-radius: 50%; 
+    border: none;  
+    margin-left: 20px;     
+}
+.youtube {
+    height: 40px; 
+    width: 40px;
+    background-color: #114C92;   
+    border-radius: 50%; 
+    border: none;   
+    margin-left: 20px;
+}
+.twitter {
+    height: 40px; 
+    width: 40px; 
+    background-color: #114C92;   
+    border-radius: 50%; 
+    border: none;   
+    margin-left: 20px;
+}
+.copyright {
+    color: #8b8b8b;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}

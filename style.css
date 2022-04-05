@@ -1,0 +1,286 @@
+@import url(https://fonts.google.com/share?selection.family=Courgette%7CMontserrat:wght@500);
+@font-face {
+    font-family: FarFromHomecoming;
+    src: url(Assets/Far-From\ Homecoming\ Updated.otf);
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+header {
+    background-color: #B11313;
+    display: flex;
+}
+nav {
+    display: flex;
+}
+.logo {
+    float: left;
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 100px;
+}
+.logo img {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.logo2 {
+    padding-top: 20px;
+}
+
+.menu {    
+    text-decoration: none;
+    padding-left: 200px;
+    padding-top: 20px;
+}
+ul {
+    list-style-type: none;
+    float: right;   
+}
+li {
+    display: inline;
+    padding: 20px;
+}
+a{
+    text-decoration: none;
+    color: #FFF;
+    text-decoration: none;
+}
+#contenant {
+    background: url(Assets/Illustration/img1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 50px;
+    background-color: #B11313;
+}
+.title1 {
+    padding-top: 80px;
+    padding-bottom: 150px;      
+    padding-left: 100px;  
+    text-transform: uppercase;
+    font-family: FarFromHomecoming;
+    font-size: 300%;
+}
+h1 {
+    color: #FFFFFF;
+    padding-top: 50px;
+}
+.heros-adv {
+    padding-left: 50px;
+}
+h3 {
+    color: #FFFFFF;
+    font-size: 200%;
+}
+.button-heros {
+    background-color: #FFFFFF;
+    color: #B11313;   
+    border-radius: 10px;
+    border: none;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding: 10px 30px;   
+}
+.button-adv {
+    color: #FFFFFF;
+    background-color: Transparent;
+    border-radius: 10px;
+    border-color: #FFFFFF;
+    padding: 10px 20px;
+}
+.title2 {
+    color: #FFFFFF;
+    padding-top: 100px;
+    font-family: FarFromHomecoming;
+    font-size: 200%;
+    text-transform: uppercase;
+}
+h2 {
+    color: #FFFFFF;
+    font-family: FarFromHomecoming;
+    text-transform: uppercase;
+    padding-top: 50px;
+}
+.spiderman{
+    color: #FFFFFF; 
+    padding-bottom: 50px;      
+}
+.container {
+    display: flex;
+    text-align: justify;
+}
+.column {
+    width: 40%;
+    justify-content: space-around;
+    text-align: left;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: #dad8d8;
+}
+.button-voir {
+    background-color: #FFFFFF;
+    color: #B11313;
+    border-radius: 10px;
+    border: none;
+    margin-left: 60px;
+    margin-top: 50px;
+    padding: 10px;        
+}
+.form {
+    display: flex;
+    width: 100%;           
+}
+input {
+    border-radius: 10px;
+    padding: 5px 100px 5px 0;
+    margin: 5px;
+    color: #FFFFFF;
+}
+.deviens-spiderman {
+    background-color: #114C92;
+    font-size: 150%;
+}
+.form-spiderman {
+    text-align: end;     
+}
+.form-spiderman p {
+    font-size: 80%;
+}
+.form-spiderman form {
+    padding-right: 50px; 
+    color: #FFFFFF;  
+}
+.envoyer {
+    margin: 20px 0 20px 80px;
+    padding: 10px 30px 10px 30px;
+    border-radius: 10px;
+    border-color: #FFFFFF;
+    color: #FFFFFF;
+    background-color: transparent;
+    text-align: center;
+}
+.img5 {
+    float: left;
+    padding-top: 50px;
+}
+.deviens-spiderman p {
+    color: #FFFFFF;
+}
+.newsletter {
+    background-image: url(Assets/Illustration/img6.png);
+    background-repeat: no-repeat;
+    background-size: 45%;
+    background-position: 750px;
+    background-color: #B11313;    
+    display: flex; 
+    padding-left: 50px;      
+    font-size: 75%;
+    color: #FFFFFF;    
+}
+.content h2 {
+    color: #FFFFFF;
+    font-family: FarFromHomecoming;
+    text-transform: uppercase;
+    padding-top: 0;
+}
+.content p {
+    padding-top: 10px;
+}
+.img6 {
+    float: right;
+    padding: 50px 200px;    
+}
+form {
+    border-radius: 10px;       
+    border: none;
+    padding: 20px 20px 0 0;     
+}
+#nom-prenom, #email {
+    background-color: transparent; 
+    border-color: #FFF; 
+    color: #FFFFFF;  
+}
+.newsletter p {
+    color: #FFFFFF;
+}
+.checkbox {
+    margin-top: 10px;
+    display: inline;
+    color: #FFFFFF;
+}
+.button-btn {
+    margin: 15px 50px;
+    padding: 10px;
+    color: #B11313;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    border: none;
+} 
+footer {
+    background-color: #000000;
+}
+.link {
+    display: flex;
+    margin: 0 20px;
+    padding-top: 50px;
+}
+.menu-left {
+    text-align: left;
+}
+.menu-right {
+    padding: 0;    
+}
+.img-logo {
+    padding-left: 70px;
+    padding-right: 30px;
+}
+select, option {
+    background-color: #B11313;
+    color: #FFF;
+    border-radius: 10px;
+    border: none;
+    padding-right: 20px;
+}
+.social_media {
+    margin-top: 50px;
+}
+.facebook {
+    height: 40px; 
+    width: 40px; 
+    background-color: #B11313;   
+    border-radius: 50%; 
+    border: none;
+    margin-left: 520px;
+}
+.instagram {
+    height: 40px; 
+    width: 40px; 
+    background-color: #B11313;   
+    border-radius: 50%; 
+    border: none;  
+    margin-left: 20px;     
+}
+.youtube {
+    height: 40px; 
+    width: 40px;
+    background-color: #B11313;   
+    border-radius: 50%; 
+    border: none;   
+    margin-left: 20px;
+}
+.twitter {
+    height: 40px; 
+    width: 40px; 
+    background-color: #B11313;   
+    border-radius: 50%; 
+    border: none;   
+    margin-left: 20px;
+}
+.copyright {
+    color: #8b8b8b;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
